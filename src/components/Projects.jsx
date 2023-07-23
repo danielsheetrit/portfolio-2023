@@ -49,7 +49,7 @@ export default function Projects() {
           {data.map((item) => {
             return (
               <div className="grid-item" key={item.id}>
-                <video src={item.src} controls />
+                <video src={item.src} controls preload="metadata" type="video/mp4" />
                 <div>
                   <h4>{item.title}</h4>
                   <p>{item.desc}</p>
