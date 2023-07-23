@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const ProjectsMain = styled.div`
   padding-top: 4rem;
-  padding-bottom: 6rem;
   text-align: center;
 
   h1 {
@@ -19,6 +18,7 @@ export const ProjectsMain = styled.div`
 export const ProjectsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  grid-auto-rows: minmax(500px, auto);
   gap: 1rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -53,14 +53,9 @@ export const ProjectsGrid = styled.div`
         margin-top: 1rem;
       }
     }
-
-    /* @media (min-width: 768px) {
-      height: 500px;
-    } */
   }
 
   @media (min-width: 550px) {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    height: 500px;
   }
 `;

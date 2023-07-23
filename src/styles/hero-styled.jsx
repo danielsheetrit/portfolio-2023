@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   padding-top: 3rem;
+  padding-bottom: 2rem;
 `;
 
 export const HeroTextBox = styled.div`
