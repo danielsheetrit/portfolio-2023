@@ -4,6 +4,7 @@ export const ProjectsMain = styled.div`
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
+  /* height: 2000px; */
 
   h1 {
     font-size: 24px;
@@ -21,13 +22,12 @@ export const ProjectsGrid = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   gap: 1rem;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 
   .grid-item {
-    cursor: pointer;
     text-align: left;
     border: 1px solid #e6ecf8;
     border-radius: 12px;
-    height: 500px;
 
     video {
       border-top-left-radius: 12px;
@@ -54,9 +54,14 @@ export const ProjectsGrid = styled.div`
         margin-top: 1rem;
       }
     }
+
+    /* @media (min-width: 768px) {
+      height: 500px;
+    } */
   }
 
   @media (min-width: 550px) {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    height: 500px;
   }
 `;
