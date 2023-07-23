@@ -1,18 +1,17 @@
 import styled from "styled-components";
 
 export const ProjectsMain = styled.div`
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 6rem;
   text-align: center;
-  /* height: 2000px; */
 
   h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   @media (min-width: 768px) {
     > h1 {
-      font-size: 48px;
+      font-size: 36px;
     }
   }
 `;

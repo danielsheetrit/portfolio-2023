@@ -1,7 +1,19 @@
 import styled from "styled-components";
 
+export const BackgroundColorFull = styled.div`
+  background: rgb(230, 236, 248);
+  background: linear-gradient(
+    180deg,
+    rgba(230, 236, 248, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+`;
+
+
 export const ExpertiseMain = styled.div`
   padding-top: 4rem;
+  padding-bottom: 4rem;
   text-align: center;
 
   > h1 {
@@ -11,7 +23,7 @@ export const ExpertiseMain = styled.div`
   @media (min-width: 768px) {
     padding-top: 6rem;
     > h1 {
-      font-size: 48px;
+      font-size: 36px;
     }
   }
 
@@ -56,6 +68,7 @@ export const Card = styled.article`
   border: 1px solid #e6ecf8;
   text-align: center;
   padding: 50px 30px;
+  background-color: #fff;
 
   @media (min-width: 768px) {
     padding: 50px;
@@ -85,14 +98,5 @@ export const Card = styled.article`
       margin-top: 6px;
       color: #333;
     }
-  }
-
-  .card-divider {
-    width: 7.5px;
-    height: 7.5px;
-    border-radius: 99px;
-    margin: 2rem 0;
-
-    background-color: #e6ecf8;
   }
 `;
