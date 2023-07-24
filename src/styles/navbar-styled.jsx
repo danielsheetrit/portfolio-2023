@@ -52,6 +52,6 @@ export const Logo = styled.div`
   border-radius: 99px;
 
   svg {
-    width: 40px;
+    width: 32px;
   }
 `;
