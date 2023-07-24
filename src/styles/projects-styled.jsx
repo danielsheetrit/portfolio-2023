@@ -27,8 +27,9 @@ export const ProjectsGrid = styled.div`
     text-align: left;
     border: 1px solid #e6ecf8;
     border-radius: 12px;
+    box-shadow: 1px 1px 15px -10px #333;
 
-    video {
+    video, img {
       border-top-left-radius: 12px;
       border-top-right-radius: 12px;
       height: 240px;
@@ -51,6 +52,24 @@ export const ProjectsGrid = styled.div`
       span {
         display: block;
         margin-top: 1rem;
+      }
+
+      a {
+        text-align: center;
+        width: auto;
+        cursor: pointer;
+        margin-top: 2rem;
+        display: block;
+        padding: 10px 16px;
+        background-color: #e6ecf8;
+        border-radius: 99px;
+        transition: 250ms;
+        text-decoration: none;
+
+        &:hover {
+          color: #fff;
+          background-color: #6e07f3;
+        }
       }
     }
   }

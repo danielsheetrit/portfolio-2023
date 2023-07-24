@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContactBackground = styled.div`
   margin-top: 2rem;
-  background-color: #333;
+  background-color: #333333d4;
 `;
 
 export const ContactMain = styled.div`
@@ -11,7 +11,8 @@ export const ContactMain = styled.div`
   align-items: center;
   text-align: center;
   color: #fff;
-  padding: 48px 0px;
+  padding-top: 48px;
+  padding-bottom: 24px;
 
   h1 {
     font-size: 24px;
@@ -33,10 +34,10 @@ export const ContactMain = styled.div`
     > a {
       cursor: pointer;
       border: 1px solid #fff;
-      border-radius: 12px;
-      padding: 16px;
-      width: 70px;
-      height: 70px;
+      border-radius: 99px;
+      padding: 12px;
+      width: 48px;
+      height: 48px;
       margin: .5rem;
     }
   }

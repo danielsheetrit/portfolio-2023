@@ -32,10 +32,11 @@ export const NavItems = styled.div`
     cursor: pointer;
     border-radius: 99px;
     transition: 0.2s;
+    text-decoration: none;
 
     &:hover {
-      color: #6e07f3;
-      background-color: #e6ecf8;
+      color: #fff;
+      background-color: #6e07f3;
     }
   }
 `;
