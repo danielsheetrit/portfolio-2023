@@ -19,7 +19,7 @@ export const ProjectsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   grid-auto-rows: minmax(500px, auto);
-  gap: 1rem;
+  gap: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 
@@ -39,7 +39,7 @@ export const ProjectsGrid = styled.div`
 
     div {
       height: 50%;
-      padding: 16px;
+      padding: 20px;
 
       h4 {
         font-size: 24px;
@@ -61,7 +61,7 @@ export const ProjectsGrid = styled.div`
         cursor: pointer;
         margin-top: 2rem;
         display: block;
-        padding: 10px 16px;
+        padding: 12px 20px;
         background-color: #e6ecf8;
         border-radius: 99px;
         transition: 250ms;

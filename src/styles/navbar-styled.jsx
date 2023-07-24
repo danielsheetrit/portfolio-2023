@@ -28,11 +28,12 @@ export const NavItems = styled.div`
 
   a {
     font-size: 18px;
-    padding: 0.5rem 1rem;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 99px;
     transition: 0.2s;
     text-decoration: none;
+    background-color: #e6ecf8;
 
     &:hover {
       color: #fff;
