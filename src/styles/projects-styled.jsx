@@ -34,6 +34,7 @@ export const ProjectsGrid = styled.div`
       border-top-right-radius: 12px;
       height: 240px;
       width: 100%;
+      object-fit: cover;
     }
 
     div {

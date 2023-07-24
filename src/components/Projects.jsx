@@ -1,14 +1,13 @@
 import Wrapper from "../styles/wrapper-styled";
 import { ProjectsMain, ProjectsGrid } from "../styles/projects-styled";
 
-// import HomiePic from "../assets/videos/Homie.mp4";
-// import ShavimPic from "../assets/videos/Shavim.mp4";
-import TeacherAIPic from "../assets/videos/TeacherAI.mp4";
-import JobSeekerPic from "../assets/videos/JobSeeker.mp4";
 import CeciliaPic from "../assets/imgs/cecilia.jpg";
 
 // posters
-
+import HomieTN from "../assets/imgs/homie.jpg";
+import ShavimTN from "../assets/imgs/shavim.jpg";
+import TeacherAITN from "../assets/imgs/teacherai.jpg";
+import JobSeekerTN from "../assets/imgs/job-seeker.jpg";
 
 const data = [
   {
@@ -21,6 +20,7 @@ const data = [
   },
   {
     title: "Homie",
+    thumbnail: HomieTN,
     src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192648/Homie-small_ucwnj0.mp4",
     desc: "A comprehensive end-to-end project, an Airbnb clone built with React and Node.js. Main feature is sophisticated filter which helps user filter the results from wide range of assets.",
     hashtags:
@@ -28,6 +28,7 @@ const data = [
   },
   {
     title: "Shavim",
+    thumbnail: ShavimTN,
     src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192252/Shavim_q49x55.mp4",
     desc: "Shavim aid system, designed to integrate mentally challenged individuals into daily factory work, enables real-time tracking of workers' activities on the coach's dashboard for efficient supervision.",
     hashtags:
@@ -35,13 +36,15 @@ const data = [
   },
   {
     title: "TeacherAI",
-    src: TeacherAIPic,
+    thumbnail: TeacherAITN,
+    src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192239/TeacherAI_svekac.mp4",
     hashtags: "#Next.js-13.4 #D-ID #ChatGPT #JWT-Auth #Tailwind-CSS",
     desc: "An MVP ed-tech platform featuring an intelligent teacher chatbot powered by OpenAI's ChatGPT and a video chat enabled by D-ID technology.",
   },
   {
     title: "Show Job",
-    src: JobSeekerPic,
+    thumbnail: JobSeekerTN,
+    src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192241/JobSeeker_h5gmui.mp4",
     hashtags: "#React Native, #Jobs-api",
     desc: "A look-a-like job search app, compatible with both iOS and Android, showcasing a simple and attractive user interface.",
   },
@@ -65,6 +68,7 @@ export default function Projects() {
                     controls
                     preload="metadata"
                     type="video/mp4"
+                    poster={item.thumbnail}
                   />
                 )}
                 <div>
