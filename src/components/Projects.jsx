@@ -30,7 +30,7 @@ const data = [
     title: "Shavim",
     thumbnail: ShavimTN,
     src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192252/Shavim_q49x55.mp4",
-    desc: "Shavim aid system, designed to integrate mentally challenged individuals into daily factory work, enables real-time tracking of workers' activities on the coach's dashboard for efficient supervision.",
+    desc: "Shavim aid system, designed to integrate mentally challenged individuals into daily factory work, enables real-time tracking of workers activities on the coach's dashboard for efficient supervision.",
     hashtags:
       "#React.js #Vite #Socket.io #Node.js #Cron-jobs #Material-UI #JWT-Auth",
   },
