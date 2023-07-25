@@ -20,7 +20,7 @@ export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
 
     h2 {
       font-size: 18px;
