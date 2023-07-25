@@ -61,12 +61,6 @@ export const Logo = styled.div`
   display: flex;
   align-items: center;
   color: #fff;
-  background-color: #6e07f3;
-  padding: 0.5rem;
+  width: 60px;
   margin-right: 0.5rem;
-  border-radius: 99px;
-
-  svg {
-    width: 32px;
-  }
 `;

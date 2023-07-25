@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
 
   @keyframes fade-up {
     0% {
@@ -18,6 +18,10 @@ export const HeroContainer = styled.div`
 
   animation-name: fade-up;
   animation-duration: 0.8s;
+
+  @media (min-width: 768px) {
+    padding-top: 4rem;
+  }
 `;
 
 export const HeroTextBox = styled.div`
@@ -26,25 +30,14 @@ export const HeroTextBox = styled.div`
   align-items: center;
   text-align: center;
 
-  img {
-    width: 200px;
-  }
-
   h1 {
     font-size: 28px;
-    margin-top: 2rem;
+    margin-top: 7rem;
   }
 
   p {
     margin-top: 1rem;
     font-size: 18px;
-  }
-
-  span {
-    font-size: 24px;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    color: #6e07f3;
   }
 
   @media (min-width: 768px) {

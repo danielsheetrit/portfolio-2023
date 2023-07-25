@@ -1,6 +1,6 @@
+import Avatar from "../assets/daniel-avatar.svg";
 import Wrapper from "../styles/wrapper-styled";
 import { NavbarContainer, Logo, NavItems } from "../styles/navbar-styled.jsx";
-import CodeIcon from "../icons/CodeIcon.jsx";
 
 export default function Navbar() {
   return (
@@ -8,7 +8,7 @@ export default function Navbar() {
       <NavbarContainer>
         <nav>
           <Logo>
-            <CodeIcon width={1} height={1} />
+            <img src={Avatar} alt="avatar" />
           </Logo>
           <h2>Daniel Sheetrit</h2>
 
