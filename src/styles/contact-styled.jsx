@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContactBackground = styled.div`
   margin-top: 2rem;
-  background-color: #333333d4;
+  background-color: #141c3a;
 `;
 
 export const ContactMain = styled.div`

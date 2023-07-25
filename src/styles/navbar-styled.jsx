@@ -1,6 +1,21 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+  animation-name: fade-down;
+  animation-duration: 0.8s;
+
   nav {
     display: flex;
     align-items: center;

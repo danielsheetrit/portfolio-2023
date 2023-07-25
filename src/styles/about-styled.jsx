@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  color: #333;
+  color: #141c3a;
   padding: 4rem 0rem;
   text-align: center;
 
@@ -44,7 +44,6 @@ export const Testimonial = styled.article`
   justify-content: start;
   background-color: #e6ecf8;
 
-  border: 1px solid #e6ecf8;
   padding: 24px 16px;
   border-radius: 12px;
   width: 100%;
@@ -69,7 +68,7 @@ export const Testimonial = styled.article`
     width: 40px;
 
     svg {
-      fill: #333;
+      fill: #141c3a;
     }
   }
 

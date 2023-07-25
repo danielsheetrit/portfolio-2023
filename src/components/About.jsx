@@ -8,9 +8,6 @@ import {
 import QuoteLeft from "../icons/QuoteLeft";
 import QuoteRight from "../icons/QuoteRight";
 
-// import LeftQuotes from "../assets/quotes-l.svg";
-// import RightQuotes from "../assets/quotes-r.svg";
-
 export default function About() {
   return (
     <AboutWrapper>

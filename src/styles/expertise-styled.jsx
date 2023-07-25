@@ -85,7 +85,7 @@ export const Card = styled.article`
     padding: 12px;
     border-radius: 99px;
     background-color: #5be9b9;
-    color: #333;
+    color: #141c3a;
   }
 
   h5 {
@@ -96,7 +96,7 @@ export const Card = styled.article`
     span {
       display: inline-block;
       margin-top: 6px;
-      color: #333;
+      color: #141c3a;
     }
   }
 `;

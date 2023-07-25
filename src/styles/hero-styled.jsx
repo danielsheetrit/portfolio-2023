@@ -3,6 +3,21 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
   padding-top: 2rem;
   padding-bottom: 2rem;
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(100px) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+  animation-name: fade-up;
+  animation-duration: 0.8s;
 `;
 
 export const HeroTextBox = styled.div`
@@ -12,7 +27,7 @@ export const HeroTextBox = styled.div`
   text-align: center;
 
   img {
-    width: 230px;
+    width: 200px;
   }
 
   h1 {

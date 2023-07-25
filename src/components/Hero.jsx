@@ -9,10 +9,10 @@ export default function Hero() {
         <HeroTextBox>
           <img src={Avatar} alt="avatar" />
 
-          <h1>I'm a Full-Stack Developer</h1>
+          <h1>Full-Stack Developer</h1>
 
           <p>
-            I will transform your vision into a digital masterpiece through the
+            Transform your vision into a digital masterpiece through the
             power of full-stack development
           </p>
 

@@ -21,7 +21,7 @@ export default function Expertise() {
                 <span>
                   Pixel Perfect Layouts, Charts & Data Visualization, Mobile
                   First approach, 100% Responsiveness, Consistent Design, CSS
-                  Libraries & Frameworks, SEO
+                  Libraries & Frameworks, CSS Animations, SEO
                 </span>
               </h5>
 
