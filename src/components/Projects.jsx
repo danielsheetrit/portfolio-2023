@@ -5,7 +5,7 @@ import CeciliaPic from "../assets/imgs/cecilia.jpg";
 
 // posters
 import HomieTN from "../assets/imgs/homie.jpg";
-import ShavimTN from "../assets/imgs/shavim.jpg";
+// import ShavimTN from "../assets/imgs/shavim.jpg";
 import TeacherAITN from "../assets/imgs/teacherai.jpg";
 import JobSeekerTN from "../assets/imgs/job-seeker.jpg";
 
@@ -26,13 +26,20 @@ const data = [
     hashtags:
       "#React.js #Socket.io #Scss #Express #MongoDB #Mongoose #Pixel-Perfect #Redux",
   },
+  // {
+  //   title: "Shavim",
+  //   thumbnail: ShavimTN,
+  //   src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192252/Shavim_q49x55.mp4",
+  //   desc: "Shavim aid system, designed to integrate mentally challenged individuals into daily factory work, enables real-time tracking of workers activities on the coach's dashboard for efficient supervision.",
+  //   hashtags:
+  //     "#React.js #Vite #Socket.io #Node.js #Cron-jobs #Material-UI #JWT-Auth",
+  // },
   {
-    title: "Shavim",
-    thumbnail: ShavimTN,
-    src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192252/Shavim_q49x55.mp4",
-    desc: "Shavim aid system, designed to integrate mentally challenged individuals into daily factory work, enables real-time tracking of workers activities on the coach's dashboard for efficient supervision.",
-    hashtags:
-      "#React.js #Vite #Socket.io #Node.js #Cron-jobs #Material-UI #JWT-Auth",
+    title: "Show Job",
+    thumbnail: JobSeekerTN,
+    src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192241/JobSeeker_h5gmui.mp4",
+    hashtags: "#React Native, #Jobs-api",
+    desc: "A look-a-like job search app, compatible with both iOS and Android, showcasing a simple and attractive user interface.",
   },
   {
     title: "TeacherAI",
@@ -40,13 +47,6 @@ const data = [
     src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192239/TeacherAI_svekac.mp4",
     hashtags: "#Next.js-13.4 #D-ID #ChatGPT #JWT-Auth #Tailwind-CSS",
     desc: "An MVP ed-tech platform featuring an intelligent teacher chatbot powered by OpenAI's ChatGPT and a video chat enabled by D-ID technology.",
-  },
-  {
-    title: "Show Job",
-    thumbnail: JobSeekerTN,
-    src: "https://res.cloudinary.com/dvbojtbzc/video/upload/v1690192241/JobSeeker_h5gmui.mp4",
-    hashtags: "#React Native, #Jobs-api",
-    desc: "A look-a-like job search app, compatible with both iOS and Android, showcasing a simple and attractive user interface.",
   },
 ];
 

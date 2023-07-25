@@ -73,7 +73,7 @@ export default function Expertise() {
                 Libraries, Frameworks & DataBases: <br />
                 <span>
                   Express, JWT, MongoDB & Mongoose, Firsebase & Firsebase
-                  Functions, Moment.js, Socket.io, Docker, Kubernetes
+                  Functions, Moment.js, Socket.io, Docker, Kubernetes, Flask
                 </span>
               </h5>
             </Card>

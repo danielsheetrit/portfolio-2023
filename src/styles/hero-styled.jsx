@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 `;
 
@@ -23,11 +23,13 @@ export const HeroTextBox = styled.div`
   p {
     margin-top: 1rem;
     font-size: 18px;
-    margin-bottom: 3rem;
   }
 
   span {
-    font-size: 14px;
+    font-size: 24px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #6e07f3;
   }
 
   @media (min-width: 768px) {

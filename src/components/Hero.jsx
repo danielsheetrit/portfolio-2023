@@ -15,6 +15,8 @@ export default function Hero() {
             I will transform your vision into a digital masterpiece through the
             power of full-stack development
           </p>
+
+          <span>Keep Scrollin' for more info</span>
         </HeroTextBox>
       </HeroContainer>
     </Wrapper>
