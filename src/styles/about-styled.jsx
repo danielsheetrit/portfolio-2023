@@ -44,13 +44,13 @@ export const Testimonial = styled.article`
   justify-content: start;
   background-color: #e6ecf8;
 
-  padding: 24px 16px;
+  padding: 36px 16px;
   border-radius: 12px;
   width: 100%;
 
   @media (min-width: 768px) {
     padding: 48px 36px;
-    height: 350px;
+    height: 375px;
   }
 
   strong {

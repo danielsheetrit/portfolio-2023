@@ -5,6 +5,7 @@ const Wrapper = styled.section`
   margin: 0 1rem;
 
   @media (min-width: 1280px) {
+    padding: 0 2rem;
     margin: 0 auto;
   }
 `;
