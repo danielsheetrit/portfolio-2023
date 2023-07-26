@@ -1,5 +1,9 @@
 import Wrapper from "../styles/wrapper-styled";
-import { ExpertiseMain, Card, BackgroundColorFull } from "../styles/expertise-styled";
+import {
+  ExpertiseMain,
+  Card,
+  BackgroundColorFull,
+} from "../styles/expertise-styled";
 import CodeIcon from "../icons/CodeIcon";
 import ServerSvg from "../assets/server-svg.svg";
 
@@ -52,10 +56,11 @@ export default function Expertise() {
               <h2>Backend Development</h2>
 
               <h5>
-                Backend Development with the following methods: <br />
+                Implementation of Backend Development Using the Following
+                Techniques: <br />
                 <span>
-                  API Development, Database Management, Middlewares Usage, Data
-                  Validations, Error Handling, Testing, OOP, Cron jobs, Web
+                  RESTful API Design, Database Management, Middlewares Usage,
+                  Data Validations, Error Handling, Testing, OOP, Cron jobs, Web
                   Sockets
                 </span>
               </h5>
